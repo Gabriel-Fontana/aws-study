@@ -2,11 +2,11 @@
 
 > **Repositório de estudos focado na certificação AWS Cloud Practitioner e práticas de DevOps em Nuvem.**
 
-Este projeto documenta minha jornada pela Amazon Web Services, cobrindo desde os fundamentos econômicos até arquiteturas serverless e segurança.
+Este projeto documenta minha jornada pela Amazon Web Services, cobrindo desde os fundamentos econômicos até arquiteturas serverless, segurança e **Infraestrutura como Código (IaC)**.
 
 ---
 
-## 🗂️ Estrutura do Laboratório
+## 🗺️ Estrutura do Laboratório
 
 | Módulo | Conteúdo Principal | Destaque Prático |
 | :--- | :--- | :--- |
@@ -17,13 +17,15 @@ Este projeto documenta minha jornada pela Amazon Web Services, cobrindo desde os
 | **[06/07 - Storage & DB](./modulo-06-07-storage-db)** | S3, RDS e DynamoDB | Guia de Armazenamento |
 | **[09 - Security](./modulo-09-security)** | IAM e Princípio do Menor Privilégio | [JSON de Política IAM](./modulo-09-security/iam-policy-example.json) |
 | **[10 - Monitoring](./modulo-10-monitoring)** | CloudWatch e CloudTrail | Auditoria e Métricas |
+| **[🚀 Terraform (IaC)](./terraform)** | **Automação de Infraestrutura** | **[Configuração Main.tf](./terraform/main.tf)** |
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 * **Linguagens:** Bash, Python, JSON.
-* **Infra:** AWS Console, User Data.
-* **IDE:** VS Code.
+* **Infraestrutura:** Terraform (HCL).
+* **Cloud:** AWS (Amazon Web Services).
 
 ---
-_“O sucesso na nuvem não é sobre quanto você gasta, mas sobre quão bem você arquiteta.”_ 🚀
+
+> _“O sucesso na nuvem não é sobre quanto você gasta, mas sobre quão bem você arquiteta.”_ 🚀
