@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowS3SpecificBucket",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::meu-lab-aws",
+                "arn:aws:s3:::meu-lab-aws/*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+# Security Group (Stateful) vs NACL (Stateless)
+# Exemplo de regra para Servidor Web:
+# Inbound: Allow TCP 80 (HTTP) from 0.0.0.0/0
+# Inbound: Allow TCP 443 (HTTPS) from 0.0.0.0/0
+# Inbound: Allow TCP 22 (SSH) from MY_IP_ONLY
